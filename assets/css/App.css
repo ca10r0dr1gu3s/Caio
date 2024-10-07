@@ -1,0 +1,100 @@
+.curriculo-container {
+  width: 300px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  /* Ou a fonte que você escolher */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.linkendin,
+.Email,
+.TellMe {
+  border-radius: 5px;
+  font-weight: bold;
+  /* Para destacar o texto */
+}
+
+h2,
+h3 {
+  font-weight: 600;
+  /* Ajusta o peso da fonte se necessário */
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.linkendin:hover {
+  background-color: #da6161;
+}
+
+.git {
+  width: 100%;
+  padding: 10px;
+  background-color: #9b5505;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.git:hover {
+  background-color: #eeb843;
+}
+
+.email {
+  width: 100%;
+  padding: 10px;
+  background-color: #05dc1a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.email:hover {
+  background-color: #7ef366;
+}
+
+button:hover {
+  background-color: #45a049;
+}
